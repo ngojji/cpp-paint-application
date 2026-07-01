@@ -1,0 +1,17 @@
+#ifndef ENUMS_H
+#define ENUMS_H
+
+enum TOOL {
+  PENCIL,
+  ERASER,
+  MOUSE,
+  CIRCLE,
+  TRIANGLE,
+  RECTANGLE,
+  LINE,
+  PENTAGON
+};
+
+enum ACTION { NONE, UNDO, REDO, CLEAR, BRING_TO_FRONT, SEND_TO_BACK };
+
+#endif
